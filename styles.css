@@ -1,0 +1,49 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #17324d;
+    color: #fff;
+}
+
+.site-name {
+    color: inherit;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:focus-visible,
+.navigation a[aria-current="page"] {
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
