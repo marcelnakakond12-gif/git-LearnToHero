@@ -8,7 +8,9 @@
 </head>
 <body>
     <header class="site-header">
-        <a class="site-name" href="home.html">LearnToHero</a>
+        <a class="site-name" href="home.html" aria-label="LearnToHero home">
+            <img src="images/LearnToHero_logo.jpg" alt="LearnToHero">
+        </a>
         <nav aria-label="Main navigation">
             <ul class="navigation">
                 <li><a href="home.html" aria-current="page">Home</a></li>
@@ -17,5 +19,54 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="hero" aria-labelledby="platform-title">
+            <div class="hero-content">
+                <p class="eyebrow">Learn, play, and grow</p>
+                <h1 id="platform-title">LearnToHero</h1>
+                <p class="hero-description">A fun, friendly platform where children build knowledge and skills through stories, games, and interactive activities.</p>
+            </div>
+        </section>
+
+        <section class="courses" aria-labelledby="courses-title">
+            <div class="section-heading">
+                <p class="eyebrow">Explore and discover</p>
+                <h2 id="courses-title">Course Categories</h2>
+                <p>Choose a subject and start learning something new.</p>
+            </div>
+            <div class="course-grid">
+                <article class="course-card">
+                    <span class="course-icon" aria-hidden="true">🔢</span>
+                    <h3>Numbers &amp; Mathematics</h3>
+                    <p>Learn counting, numbers, addition, subtraction, and simple mathematics through easy activities.</p>
+                </article>
+                <article class="course-card">
+                    <span class="course-icon" aria-hidden="true">🔤</span>
+                    <h3>Languages</h3>
+                    <p>Build vocabulary, recognize letters and words, and practice English, French, and Kinyarwanda.</p>
+                </article>
+                <article class="course-card">
+                    <span class="course-icon" aria-hidden="true">📖</span>
+                    <h3>Stories &amp; Reading</h3>
+                    <p>Enjoy simple stories while developing reading, listening, imagination, and understanding.</p>
+                </article>
+                <article class="course-card">
+                    <span class="course-icon" aria-hidden="true">🌍</span>
+                    <h3>Everyday Knowledge</h3>
+                    <p>Discover people, objects, places, animals, nature, and things children see in everyday life.</p>
+                </article>
+                <article class="course-card">
+                    <span class="course-icon" aria-hidden="true">🎮</span>
+                    <h3>Games &amp; Activities</h3>
+                    <p>Learn through questions, challenges, games, and activities that encourage children to think and participate.</p>
+                </article>
+                <article class="course-card">
+                    <span class="course-icon" aria-hidden="true">🧠</span>
+                    <h3>Life &amp; Practical Skills</h3>
+                    <p>Develop useful knowledge through activities related to communication, hygiene, creativity, problem-solving, and everyday life.</p>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
